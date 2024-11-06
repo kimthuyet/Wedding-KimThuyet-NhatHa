@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thiệp Cưới Online</title>
+    <title>Thiệp Cưới - Kim Thuyết & Nhật Hạ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="invitation">
-        <img src="images/wedding.jpg" alt="Ảnh cưới" class="wedding-image">
-        <h1>Thiệp Mời Cưới</h1>
-        <p>Trân trọng kính mời</p>
+    <!-- Phần hình nền -->
+    <div class="background"></div>
+    
+    <!-- Phần thiệp cưới -->
+    <div class="invitation-container">
+        <h1 class="title">Thiệp Mời Cưới</h1>
+        <p class="message">Trân trọng kính mời</p>
         <p class="guest-name">[Tên Khách Mời]</p>
-        <p>đến dự lễ thành hôn của</p>
-        <h2>Chú Rể: Nguyễn Văn A</h2>
-        <h2>Cô Dâu: Trần Thị B</h2>
+        <p class="message">Đến dự lễ thành hôn của</p>
+        <h2>Chú Rể: Nguyễn Kim Thuyết</h2>
+        <h2>Cô Dâu: Nhã Thảo</h2>
         <p>Thời gian: 10:00 AM, ngày 20/10/2024</p>
         <p>Địa điểm: Nhà hàng ABC, Quận 1, TP.HCM</p>
         <button onclick="confirmAttendance()">Xác nhận tham dự</button>
     </div>
 
+    <audio id="background-music" src="audio/wedding-music.mp3" autoplay loop></audio>
+    
     <script src="script.js"></script>
 </body>
 </html>
-
